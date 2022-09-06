@@ -1,0 +1,25 @@
+<mvc:View
+    controllerName="ui5applicationmodule.controller.Root"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="{i18n>title}">
+                    <content>
+                        <VBox width="100%" direction="Column" id="vbox0" alignContent="Center">
+                            <items>
+                                <Input value="Value" id="employeeInput" placeholder="Type your name here"/>
+                                <Input value="Value" id="itequipmentInput" placeholder="Type your desired IT Equipment Here"/>
+                                <Input value="Value" id="quantityInput" placeholder="Type your required Quantity"/>
+                                <Button text="Send Your request" id="button0" type="Emphasized" press="pressButton"/>
+                            </items>
+                        </VBox>
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>

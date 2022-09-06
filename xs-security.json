@@ -1,0 +1,20 @@
+{
+    "xsappname": "ui5aorkflowproject",
+    "tenant-mode": "dedicated",
+    "scopes":[
+        {
+            "name": "$XSAPPNAME.ui5workflowdisplay",
+            "description": "display"
+        }
+    ],
+    "role-templates": [
+        {
+            "name": "workflowmanager",
+            "description": "All Workflow",
+            "scope-references": [
+                "$XSAPPNAME.ui5workflowdisplay"
+            ]
+        }
+    ]
+
+}
